@@ -158,7 +158,15 @@
     line-height: 2.25rem;
   }
 
+  .action__buttons {
+    display: flex;
+  }
+
   .buy__button a {
+    font-size: 2rem;
+  }
+
+  .download__button a {
     font-size: 2rem;
   }
 
