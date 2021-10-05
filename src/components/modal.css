@@ -164,11 +164,19 @@
   }
 
   .buy__button a {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+  }
+
+  .buy__button {
+    width: 50%;
   }
 
   .download__button a {
     font-size: 2rem;
+  }
+
+  .download__button {
+    width: 50%;
   }
 
   .close {
