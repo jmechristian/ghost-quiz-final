@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
+import Movie from './components/movie';
+import Modal from './components/modal';
+
+import { data } from './data';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [selectedMovie, setSelectedMovie] = useState(data[0]);
+  const [modal, showModal] = useState(false);
+
+  const movieSelector = (movie) => {
+    setSelectedMovie(movie);
+  };
+
+  const setShowModal = () => {
+    showModal(true);
+  };
+
+  const setCloseModal = () => {
+    showModal(false);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='halloween__quiz'>
+      <div className='halloween__quiz__wrapper'>
+        {modal && <Modal movie={selectedMovie} setCloseModal={setCloseModal} />}
+        {data.map((movie) => (
+          <Movie
+            movie={movie}
+            key={movie.id}
+            movieSelector={movieSelector}
+            setShowModal={setShowModal}
+          />
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 export default App;

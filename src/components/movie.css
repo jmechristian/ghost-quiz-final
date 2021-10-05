@@ -1,0 +1,21 @@
+.movie__wrapper {
+  padding: 8px 16px;
+  width: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.movie__image img {
+  width: 100%;
+}
+
+.movie__details {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .movie__wrapper {
+    width: 33%;
+  }
+}
