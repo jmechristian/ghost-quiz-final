@@ -79,6 +79,7 @@ const Modal = ({ movie, setCloseModal }) => {
                   href='https://www.ghosttequilashop.com/?utm_source=MainHero&utm_medium=Web&utm_campaign=Halloween'
                   target='_blank'
                   rel='noreferrer'
+                  id={'buy-click ' + movie.drink}
                 >
                   Make Yours
                 </a>
@@ -87,7 +88,12 @@ const Modal = ({ movie, setCloseModal }) => {
             <div className='download__button'>
               <div className='button__inner'>
                 <FontAwesomeIcon icon={faDownload} inverse size='lg' />
-                <a href={movie.drinkCard} rel='noreferrer' target='_blank'>
+                <a
+                  href={movie.drinkCard}
+                  rel='noreferrer'
+                  target='_blank'
+                  id={'download-click ' + movie.drink}
+                >
                   Save Recipe
                 </a>
               </div>
