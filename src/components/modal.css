@@ -160,10 +160,11 @@
 
   .action__buttons {
     display: flex;
+    width: 100%;
   }
 
   .buy__button a {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .download__button a {
