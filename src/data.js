@@ -16,8 +16,7 @@ export const data = [
       'Top with Ginger Beer',
     ],
     subtitle: 'Mint to be on screen. See you in 7 days.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc13_z2gryr.png',
+    drinkCard: 'https://ghost.squarespace.com/s/mexican-mule.png',
   },
   {
     id: 'poltergeist',
@@ -37,8 +36,7 @@ export const data = [
       "Dashes of Peychaud's Bitters",
     ],
     subtitle: "You'll never look at your TV the same.",
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc14_mwy8vh.png',
+    drinkCard: 'https://ghost.squarespace.com/s/polterghost.png',
   },
   {
     id: 'old',
@@ -57,8 +55,7 @@ export const data = [
       'Orange Twist Garnish',
     ],
     subtitle: "Life's a real beach sometimes.",
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc12_u4galc.png',
+    drinkCard: 'https://ghost.squarespace.com/s/old-fashioned.png',
   },
   {
     id: 'paranormal',
@@ -77,8 +74,7 @@ export const data = [
       'Black Lava Salt Rim, Lime wheel Garnish',
     ],
     subtitle: "I'll be sleeping with the lights on.",
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc15_zc3t0y.png',
+    drinkCard: 'https://ghost.squarespace.com/s/dark-ghost.png',
   },
   {
     id: 'shining',
@@ -97,8 +93,7 @@ export const data = [
       'Top with Ginger Beer',
     ],
     subtitle: 'All work and no play calls for more Ghost.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc16_x90hvq.png',
+    drinkCard: 'https://ghost.squarespace.com/s/ghost-venom.png',
   },
   {
     id: 'nightmare',
@@ -111,8 +106,7 @@ export const data = [
       'https://res.cloudinary.com/jmechristian/image/upload/v1631500210/Ghost-Halloween/wtd-shooter_xpsfav.png',
     recipe: ['1oz Ghost Tequila', '1oz coffee liqueur', '½oz espresso'],
     subtitle: 'The safest place to be is wide awake.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445332/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc19_nyb8th.png',
+    drinkCard: 'https://ghost.squarespace.com/s/wake-the-dead.png',
   },
   {
     id: 'halloween',
@@ -130,8 +124,7 @@ export const data = [
       'lime wedge',
     ],
     subtitle: 'How can you tell with everyone wearing masks?',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445316/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc1_ci5yru.png',
+    drinkCard: 'https://ghost.squarespace.com/s/el-diablo.png',
   },
   {
     id: 'chucky',
@@ -150,8 +143,7 @@ export const data = [
       'Top with Soda Water',
     ],
     subtitle: 'Starts out sweet, finishes tart.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445332/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc112_zxqg9m.png',
+    drinkCard: 'https://ghost.squarespace.com/s/sweet-spicy.png',
   },
   {
     id: 'candy',
@@ -170,8 +162,7 @@ export const data = [
       'Tajin Rim Glass',
     ],
     subtitle: "We'll call for this five times in the dark.",
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445332/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc18_qgibsx.png',
+    drinkCard: 'https://ghost.squarespace.com/s/candy-shot.png',
   },
   {
     id: 'friday',
@@ -189,8 +180,7 @@ export const data = [
       'Red Wine',
     ],
     subtitle: 'Not your average summer camp drink.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445332/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc111_sfci9x.png',
+    drinkCard: 'https://ghost.squarespace.com/s/devils-marg.png',
   },
   {
     id: 'it',
@@ -209,8 +199,7 @@ export const data = [
       'Desired Garnish',
     ],
     subtitle: "We don't clown around with our Bloody Marias.",
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445332/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc110_rxfjv0.png',
+    drinkCard: 'https://ghost.squarespace.com/s/bloody-maria.png',
   },
   {
     id: 'cabin',
@@ -229,7 +218,6 @@ export const data = [
       '1 tiny drop pure vanilla extract (optional)',
     ],
     subtitle: 'The campier the better.',
-    drinkCard:
-      'https://res.cloudinary.com/jmechristian/image/upload/v1633445331/Ghost-Halloween/recipe%20cards/Ghost_drinkCards_jc17_ehahku.png',
+    drinkCard: 'https://ghost.squarespace.com/s/blood-orange.png',
   },
 ];
